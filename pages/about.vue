@@ -9,7 +9,7 @@
       justify-content="center"
     >
       <CHeading text-align="center" mb="4">
-        ⚡️ Hello, World!
+        ⚡️ Welcome, About!
       </CHeading>
       <CFlex justify="center" direction="column" align="center">
         <CBox mb="3">

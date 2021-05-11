@@ -12,7 +12,9 @@
     "@chakra-ui/nuxt": "^0.3.0",
     "@nuxtjs/emotion": "^0.1.0",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
+    "node-sass": "^6.0.0",
+    "nuxt": "^2.15.3",
+    "sass-loader": "^11.1.0"
   },
   "devDependencies": {}
 }
