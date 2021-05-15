@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <CAccordion>
+  <CContainer max-width="74ch" mb="22px">
+    <CAccordion allowMultiple>
       <CAccordionItem>
         <CAccordionHeader>
           <CBox flex="1" textAlign="left">
@@ -30,11 +30,12 @@
         </CAccordionPanel>
       </CAccordionItem>
     </CAccordion>
-  </div>
+  </CContainer>
 </template>
 
 <script lang="js">
 import {
+  CContainer,
   CAccordion,
   CAccordionItem,
   CAccordionHeader,
@@ -46,6 +47,7 @@ import {
 export default {
   name: 'App',
   components: {
+    CContainer,
     CAccordion,
     CAccordionItem,
     CAccordionHeader,
