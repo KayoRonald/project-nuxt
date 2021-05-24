@@ -1,5 +1,19 @@
 # website-nuxt
 
+
+```json
+//vercel.json
+{
+  "builds": [
+    {
+      "src": "nuxt.config.js",
+      "use": "@nuxtjs/vercel-builder",
+      "config": {}
+    }
+  ]
+}
+```
+
 ## Build Setup
 
 ```bash
